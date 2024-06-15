@@ -1,0 +1,63 @@
+body{
+    margin:0px;
+    background-image:url("timeback.png");
+    background-repeat:none;
+    background-size:cover;
+}
+#navigation
+{   display:flex;
+    background-color:#0fb0e0;
+    color:white;
+    justify-content:space-between;
+    padding-left:40px;
+    padding-right:40px;
+    height:90px;
+    position:sticky;
+    top:0px;
+    box-shadow:3px 3px 5px black;
+}
+#images
+{   display:flex;
+}
+#icon
+{   width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-top:20px;
+    margin-right:30px;
+}
+#iconthing
+{   margin-top:25px;
+    font-family:"Matura MT Script Capitals";
+    word-spacing:-10px;
+}
+#menus
+{   display:flex;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.items
+{   text-decoration:none;
+    text-transform:none;
+    color:white;
+    margin-left:70px;
+}
+.items:hover{
+    border-bottom-style:solid;
+    border-bottom-width:10px;
+    border-bottom-color:black;
+    padding-bottom:55px;
+}
+#time
+{   display:flex;
+}
+#timing
+{   margin:auto;
+    margin-top:250px;  
+    font-size:100px;
+    color:white;
+    backdrop-filter:blur(20px);
+    display:block;
+}

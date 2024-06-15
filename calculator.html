@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="navigation">
+        <div id="images">
+            <img src="icon.png" id="icon">
+            <h1 id="iconthing">User Friendly Site</h1>
+        </div>
+        <div id="menus">
+            <h1 class="items"><a href="index.html">Home</a></h1>
+            <h1 class="items"><a href="stopwatch.html">Stop Watch</a></h1>
+            <h1 class="items"><a href="calculator.html">Calculator</a></h1>
+            <h1 class="items"><a href="timings.html">Timings</a></h1>
+            <h1 class="items"><a href="weather.html">Weather</a></h1>
+        </div>
+    </div>
+    <div id="main">
+        <input type="text" readonly placeholder="Use my body" id="result" onmouseover="dothings()" onmouseout="donthings()" onclick="clearing()"><br>
+        <button onclick="clearing()"class="button-cool">AC</button>
+        <button onclick="deletething()" class="button-cool">x</button>
+        <button onclick="calculate('%')" class=button-cool>%</button>
+        <button onclick="calculate('00')" class="button-cool">00</button><br>
+        <button onclick="calculate('7')" class =button-cool>7</button>
+        <button onclick="calculate('8')" class =button-cool>8</button>
+        <button onclick="calculate('9')" class =button-cool>9</button>
+        <button onclick="calculate('*')" class =button-cool>X</button><br>
+        <button onclick="calculate('6')" class =button-cool>6</button>
+        <button onclick="calculate('5')" class =button-cool>5</button>
+        <button onclick="calculate('4')" class =button-cool>4</button>
+        <button onclick="calculate('-')" class =button-cool>-</button><br>
+        <button onclick="calculate('1')" class =button-cool>1</button>
+        <button onclick="calculate('2')" class =button-cool>2</button>
+        <button onclick="calculate('3')" class =button-cool>3</button>
+        <button onclick="calculate('+')" class =button-cool>+</button><br>
+        <button onclick="calculate('0')" class =button-cool>0</button>
+        <button onclick="calculate('.')" class =button-cool>.</button>
+        <button onclick="resulting()" id="unique">=</button>
+        <button onclick="calculate('/')" class =button-cool>/</button>
+        </div>
+</body>
+    <script src="calculator.js"></script>
+</html>
