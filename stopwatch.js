@@ -16,6 +16,13 @@ function stop()
         started=!started;
     }
 }
+function reset() 
+{   clearInterval(time);
+    durationinterval=0;
+    starttime=0;
+    started=!started;
+    document.getElementById("time").textContent="00:00:00:00";
+}
 function clear()
 {   started=false;
     document.getElementById("time").textContent=`00:00:00:00`; 
